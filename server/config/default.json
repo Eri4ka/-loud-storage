@@ -1,0 +1,4 @@
+{
+  "serverPort": 4000,
+  "dbUrl": "mongodb+srv://navyhasanov:qwerty123456@cloud.h6dhacf.mongodb.net/cloud?retryWrites=true&w=majority"
+}
