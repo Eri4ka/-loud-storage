@@ -1,0 +1,10 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__heaading {
+    font-weight: 400;
+    font-size: 24px;
+  }
+}

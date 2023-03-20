@@ -1,0 +1,21 @@
+.wrapper {
+  background-color: var(--button-blue-background);
+  color: var(--button-white-color);
+  font-size: 16px;
+  height: 48px;
+
+  &:hover {
+    background-color: var(--button-blue-background-hover);
+  }
+
+  &:active {
+    background-color: var(--button-blue-background-active);
+  }
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

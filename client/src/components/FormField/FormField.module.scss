@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: var(--input-font-color);
+}
+
+.label {
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.input {
+  height: 48px;
+  font-size: 16px;
+  border: 1px solid var(--border-color);
+  color: inherit;
+  padding: 16px;
+}

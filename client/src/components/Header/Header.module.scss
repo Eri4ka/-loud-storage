@@ -1,0 +1,33 @@
+.root {
+  background-color: var(--white);
+  color: var(--base-text-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.container {
+  max-width: 1040px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.auth {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 16px;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: var(--hover-color);
+  }
+
+  &__exit {
+    cursor: pointer;
+  }
+}
