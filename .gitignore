@@ -1,9 +1,14 @@
 # dependencies
 server/node_modules
+/node_modules
+/server/node_modules
+./server/node_modules
 
 .vscode
 # dependencies
 client/node_modules
+/client/node_modules
+./client/node_modules
 client/.next
 
 server/files
