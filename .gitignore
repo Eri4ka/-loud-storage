@@ -1,0 +1,10 @@
+# dependencies
+server/node_modules
+
+.vscode
+# dependencies
+client/node_modules
+client/.next
+
+server/files
+server/static
