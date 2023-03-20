@@ -13,3 +13,5 @@ client/.next
 
 server/files
 server/static
+
+.DS_Store
