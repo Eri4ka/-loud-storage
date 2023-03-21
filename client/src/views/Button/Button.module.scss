@@ -19,3 +19,23 @@
   align-items: center;
   gap: 10px;
 }
+
+.simple {
+  height: 32px;
+  font-size: 14px;
+  color: var(--base-text-color);
+  background-color: var(--button-simple-background);
+
+  &:hover {
+    background-color: var(--button-simple-background-hover);
+  }
+
+  &:active {
+    background-color: var(--button-simple-background-active);
+  }
+}
+
+.primary {
+  height: 32px;
+  font-size: 14px;
+}

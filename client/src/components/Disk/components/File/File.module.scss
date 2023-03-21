@@ -1,0 +1,23 @@
+.file {
+  height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 4fr repeat(4, 1fr);
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+
+  &__icon {
+    grid-column-start: 1;
+  }
+
+  &__name {
+    grid-column-start: 2;
+  }
+
+  &__date {
+    grid-column-start: 5;
+  }
+
+  &__size {
+    grid-column-start: 6;
+  }
+}
