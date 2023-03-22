@@ -4,6 +4,11 @@
   grid-template-columns: 1fr 4fr repeat(4, 1fr);
   align-items: center;
   border-bottom: 1px solid var(--border-color);
+  background-color: var(--file-background);
+
+  &:hover {
+    background-color: var(--file-background-hover);
+  }
 
   &__icon {
     grid-column-start: 1;
@@ -15,9 +20,11 @@
 
   &__date {
     grid-column-start: 5;
+    justify-self: center;
   }
 
   &__size {
     grid-column-start: 6;
+    justify-self: center;
   }
 }

@@ -1,8 +1,14 @@
+import { useAppSelector } from '@/redux/hooks';
+import { getFiles } from '@/redux/selectors/filesSelectors';
+
 import File from '../File';
 
 import styles from './FileList.module.scss';
 
 const FileList = () => {
+  const files = useAppSelector(getFiles);
+  console.log(files);
+
   return (
     <div className={styles.filelist}>
       <div className={styles.filelist__header}>
@@ -11,8 +17,9 @@ const FileList = () => {
         <div className={styles.filelist__size}>Размер</div>
       </div>
       <ul>
-        <File />
-        <File />
+        {files?.map((file) => (
+          <File key={file._id} file={file} />
+        ))}
       </ul>
     </div>
   );

@@ -1,9 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+import { FileType } from '@/types/fileTypes';
+
 import { fetchFiles } from '../actions/filesActions';
 
 type FileSliceType = {
-  files: any[];
+  files: FileType[];
   currentDir: string;
 };
 
